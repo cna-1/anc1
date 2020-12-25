@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="STYLESHEET" type="text/css" href="Exercici8.css">
+<title>InnovativeEccentricArt- Creative Collective</title>
+<meta charset="utf-8">
+<meta name="Adrian Navarro Camuñas" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+<link rel="shorchut icon" type="image/x-icon" href="file:///F:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/logo4.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box; 
+}
+/*videodelfondo*/
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  
+  z-index:-1;
+}
+  
+  
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+ margin-left:20%;
+}
+
+.navbar a { font-family: 'Anton', sans-serif;
+  float: right;
+  font-size: 18px;
+  color: #ffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown { 
+float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn { font-family: 'Anton', sans-serif;
+  background-color: rgba(100, 100, 100, 0);
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: #ffff;
+  padding: 14px 16px;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #B4B4B4;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #ffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  float: right;
+  margin-top:40px;
+}
+#submenu1 {
+}
+#submenu2 {
+  margin-top:-10px;
+}
+#submenu3 {
+  margin-top:-10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.logo { font-family: 'Major Mono Display', monospace;
+width:300px;
+}
+
+#logo { font-family: 'Major Mono Display', monospace;
+font-size:30px;
+color:#CBAC4D;
+text-shadow: 2px 2px 4px black;
+}
+#menuparabajo {
+margin-top:50px;
+}
+.subtitulo { font-family: 'Major Mono Display', monospace;
+  font-size:45px;
+  color:#CBAC4D;
+  letter-spacing:3px;
+  margin-left:10%;
+  width:60%;
+  text-shadow: 2px 2px 2px black;
+}
+.columna { font-family: 'Anton', sans-serif;
+  width: 100%;
+  margin-top:15%;
+  margin-left:0%;
+  color:#ffff;
+  letter-spacing:1px;
+  font-size:15px;
+}
+.columna > a { font-family: 'Anton', sans-serif;
+  position: absolute;
+  padding: 12px 15px;
+  border: 0;
+  background-color: rgba(100, 100, 100, 0.4); 
+  color: #ffff;
+  letter-spacing: 1px;
+  border: 2px solid #ffff;
+  font-size: 15px;
+  text-decoration:none;
+  margin-left:5.8px;
+  width:218px;
+  text-align:center;
+  margin-left:10%;
+}
+.columna > p { font-family: 'Anton', sans-serif;
+margin-left:10%;
+}
+#login { font-family: 'Anton', sans-serif;
+  margin-top:55px;
+  border: 2px solid #ffff;
+  text-align:center;
+  width:100px;
+  padding:6px;
+  margin-left:80px;
+  background-color: rgba(100, 100, 100, 0.4); 
+}
+#login:hover {
+color:#ffff;
+}
+#singup { font-family: 'Anton', sans-serif;
+  margin-top:55px;
+  border: 2px solid #ffff;
+  text-align:center;
+  width:100px;
+  padding:6px;
+  margin-left:20px;
+  background-color: rgba(100, 100, 100, 0.4); 
+}
+#singup:hover {
+color:#ffff;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: rgba(0, 0, 0, 0);
+   text-align: center;
+}
+.loco {
+   color:#ffff;
+   margin-left:2%;
+}
+.contacto { font-family: 'Anton', sans-serif;
+  padding: 0.5em;
+  margin-left:6%;
+  color: #ffff;
+  clear: left;
+  text-align:center;
+}
+.contacto2 { font-family: 'Anton', sans-serif;
+  padding: 0.5em;
+  color: #ffff;
+  clear: left;
+  text-align:center;
+  color:#7A7A7A;
+  text-decoration:none;
+}
+.dirección{ font-family: 'Anton', sans-serif;
+  padding: 0.5em;
+  margin-left:6%;
+  color: #ffff;
+  clear: left;
+  text-align:center;
+}
+.redes { font-family: 'Anton', sans-serif;
+  padding: 0.5em;
+  margin-left:6%;
+  color: #ffff;
+  clear: left;
+  text-align:center;
+  text-decoration:none;
+  color:#ffff;
+  cursor: pointer;
+  color:#7A7A7A;
+}
+}
+</style>
+<body>
+
+<div class="navbar">
+  <a id="menuparabajo" href="file:///F:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/Pagina%20principal.html#home">Home</a>
+  <div id="menuparabajo" class="dropdown">
+    <a class="dropbtn" href="file:///F:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/Obra.html">Works
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <div class="dropdown-content">
+      <a id="submenu1" href="file:///F:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/ObrasHaberSFunciona.html">Exposition</a>
+      <a id="submenu2" href="file:///F:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/ObrasHaberSFunciona.html">Artitist</a>
+      <a id="submenu3" href="file:///F:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/ObrasHaberSFunciona.html">Painting</a>
+    </div>
+  </div> 
+  <a  id="logo" class="logo" href="#news">THE INNOVATIVE ECCENTRIC ART</a>
+  <a id="menuparabajo" href="#news">Contact</a>
+  <a id="menuparabajo" href="file:///F:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/Exercici8.html">The Cooperation</a>
+  
+  <a id="login" href="file:///E:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/login.html">Login</a>
+  <a id="singup" href="file:///E:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/singup.html">SingUp</a>
+</div>
+
+  <div class="columna">
+    <h2 class="subtitulo">THE INNOVATIVE ECCENTRIC ART</h2><br>
+	<p>If you want to continue reading more about my WebSite The Innovate Eccentric Art, click it.</p><br>
+    <a class="animation a6" href="file:///F:/2n-SMX/Aplicacions%20web/CSS/Exercici8madebyTonto/Exercici8.html">Read more</a>
+  </div>
+
+<div class="footer">
+   <div class="loco">© Copyright by Adrian Navarro Camuñas
+  <a class="contacto">+34 640 25 58 85
+<a class="contacto2" href="mailto:innovateeccentric@gmail.com">hello (at) innovateeccentric.com</a></a>
+
+  <a class="dirección">08203 Barcelona 
+  Sabadell</a>
+  <a class="redes" target="blank" href="https://www.instagram.com/03adrian__/">Instagram</a></div>
+</div>
+
+<video autoplay muted loop class="video">
+  <source src="arte2.mp4" type="video/mp4">
+</video>
+
+</body>

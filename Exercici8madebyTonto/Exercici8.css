@@ -1,0 +1,263 @@
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box; 
+}
+/*partearriba*/
+.texto1 { font-family: 'Major Mono Display', monospace;
+  float: left;
+  margin-left:14.4%;
+  margin-top:-27%;
+  font-size:25px;
+  width:15px;
+  cursor: pointer;
+  color:#CBAC4D;
+}
+.texto1 a { font-family: 'Major Mono Display', monospace;
+  text-decoration:none;
+  text-shadow: 2px 2px 2px black;
+}
+.texto2 { font-family: 'Anton', sans-serif;
+    float: left;
+    margin-left:28.4%;
+	margin-top:-21%;
+	font-size:15px;
+	width:30%;
+}
+.texto2 a{ font-family: 'Anton', sans-serif;
+	text-decoration:none;
+	color:#000000;
+	cursor: pointer;
+	color:#7A7A7A;
+}
+.texto3 { font-family: 'Anton', sans-serif;
+  float: left;
+  margin-left:52%;
+	margin-top:-25.6%;
+	font-size:15px;
+	width:6%;
+	cursor: pointer;
+	color:#7A7A7A;
+}
+.texto4 { font-family: 'Anton', sans-serif;
+  float: left;
+  margin-left:72%;
+	margin-top:-27%;
+	font-size:15px;
+	width:15px;
+}
+.texto4 a {
+  text-decoration:none; 
+  color:#7A7A7A;
+  cursor: pointer;
+}
+/*tituloprincipal*/
+.titol { font-family: 'Anton', sans-serif;
+  font-size:45px;
+  width: 50%;
+  position:block;
+  margin-top:28%;
+  margin-left:90px;
+  color:#0000000;
+  letter-spacing:5px;
+}
+.titol:hover {
+
+text-shadow: 0 0 6px #CBAC4D;
+}
+/*logoenmovimiento*/
+.logomov {
+  width: 250px;
+  height: 250px;
+  background-image: url("https://99designs-start-attachments.imgix.net/alchemy-pictures/2016%2F03%2F02%2F04%2F14%2F45%2Fb3adc9bb-697b-49d2-b23d-f5b02d5b59ff%2FA-565860_SavaStoic.png?auto=format&ch=Width%2CDPR&w=250&h=250");
+  position: relative;
+  margin-top:-13.8%;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 40%;}
+  to {left: 71%;}
+}
+
+/*textos*/
+.subtitulo { font-family: 'Anton', sans-serif;
+  font-size:15px;
+  color:#CBAC4D;
+  letter-spacing:3px;
+}
+.columna { font-family: 'Anton', sans-serif;
+  float: left;
+  width: 40%;
+  margin-left:90px;
+  margin-top:90px;
+  color:#000000;
+  letter-spacing:1px;
+  font-size:15px;
+}
+.columna2 { font-family: 'Anton', sans-serif;
+  float: left;
+  width: 15%;
+  margin-left:60px;
+  margin-top:90px;
+  color:#000000;
+  letter-spacing:1px;
+  word-spacing:1px;
+  font-size:15px;
+}
+.columna3 { font-family: 'Anton', sans-serif;
+  float: left;
+  width: 20%;
+  margin-left:120px;
+  margin-top:90px;
+  margin-bottom:15%;
+  color:#000000;
+  letter-spacing:1px;
+  font-size:15px;
+}
+.columna3 a{ font-family: 'Anton', sans-serif;
+  text-decoration:none;
+  color:#000000;
+  cursor: pointer;
+}
+div.footer { font-family: 'Anton', sans-serif;
+  padding: 0.5em;
+  color: black;
+  background-color: #000;
+  clear: left;
+  text-align:center;
+  background: rgba(0, 0, 0, 0);
+  margin-bottom:1%;
+  text-shadow: 0px 0px 2px #ffff;
+}
+.contacto { font-family: 'Anton', sans-serif;
+  padding: 0.5em;
+  margin-left:10%;
+  color: black;
+  clear: left;
+  text-align:center;
+  text-shadow: 0px 0px 2px #ffff;
+}
+.contacto2 { font-family: 'Anton', sans-serif;
+  padding: 0.5em;
+  color: white;
+  clear: left;
+  text-align:center;
+  color:#7A7A7A;
+  text-decoration:none;
+}
+.dirección{ font-family: 'Anton', sans-serif;
+  padding: 0.5em;
+  margin-left:10%;
+  color: black;
+  clear: left;
+  text-align:center;
+  text-shadow: 0px 0px 2px #ffff;
+}
+.redes { font-family: 'Anton', sans-serif;
+  padding: 0.5em;
+  margin-left:10%;
+  color: black;
+  clear: left;
+  text-align:center;
+  text-decoration:none;
+  color:#ffff;
+  cursor: pointer;
+  color:#7A7A7A;
+}
+
+/*videodelfondo*/
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  
+  z-index:-1;
+}
+/*menu*/
+.sidenav { 
+  height: 142%;
+  width: 14%;
+  position: absolute;
+  margin-left:0%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.menu {
+  position: absolute;
+  margin-left:5.2%;
+  margin-top:-27.5%;
+  text-shadow: 1px 1px 5px white;
+}
+.sidenav a { font-family: 'Anton', sans-serif;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffff;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.sidenav a:hover {
+  color: #808080;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  }
+.login {
+	position:absolute;
+	margin-top:-26.7%;
+	margin-left:84%;
+	text-align:center;
+	padding: 12px 15px;
+    border: 0;
+    background: #000;
+    border-radius: 3px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration:none;
+    font-family: 'Rubik', sans-serif;
+    width:100px;;
+}
+.login:hover {
+border: 2px solid #ffff;
+}
+.signup {
+	position:absolute;
+	margin-top:-26.7%;
+	margin-left:92%;
+	text-align:center;
+	padding: 12px 15px;
+    border: 0;
+    background: #000;
+    border-radius: 3px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration:none;
+    font-family: 'Rubik', sans-serif;
+    width:100px;;
+}
+.signup:hover {
+border: 2px solid #ffff;
+}
+}
